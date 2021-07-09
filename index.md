@@ -1,4 +1,4 @@
-﻿# Object Detection Model For Cars
+﻿# Smile Detection Model
 I worked on a smile detection model using machine learning that can accurately predict when a person is smiling or not, given an image of the person. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
