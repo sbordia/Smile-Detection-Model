@@ -26,9 +26,9 @@ This is my code for setting up the web server, which would receive and save an i
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/hiAswzDwLWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 # Second Milestone
-My second milestone involved getting the web server set up on my computer. I created a Web App that would have a browse button that selects an image. When I submit and press get result, a file is saved in my directory, and I get a result appear on the frontend from the server that is talking to my model on the backend. My design is mostly my finalized.
+The first part of my second milestone involved getting my model to actually work and detect faces when I upload them. It was decently accurate. My model, once trained and tested, had an accuracy of 82%. After this was done, I used this model to be able to detect when I am smiling or not using a live webcam. This part worked much better as I had provided coefficients for my face that made it easier for the model algorithm to correctly identify whether I was smiling or not.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/cn1QfGRkooc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/a5R4cG8g_pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 # First Milestone
   
