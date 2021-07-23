@@ -29,6 +29,10 @@ I used Flask to set up my web server, and I used HTML, CSS, and Bootstrap on the
 
 
 # Second Milestone
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/a5R4cG8g_pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
 The first part of my second milestone involved getting my model to actually work and detect faces when I upload them. It was decently accurate. My model, once trained and tested, had an accuracy of 82%. After this was done, I used this model to be able to detect when I am smiling or not using a live webcam. This part worked much better as I had provided coefficients for my face that made it easier for the model algorithm to correctly identify whether I was smiling or not.
 
 
@@ -38,12 +42,12 @@ This is my code for training my model and getting its accuracy. I used Kfold to 
 ![image](https://user-images.githubusercontent.com/60077919/126688752-bf4b0f21-8fc4-4452-9ecf-4b3468865e87.png)
 
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/a5R4cG8g_pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
 # First Milestone
+
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/RxNrnyGkhDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
   
 
 My first milestone involved setting up my raspberry pi and being able to display and classify the olivetti faces dataset using Jupyter Notebook. My code came up with a simple UI that had two buttons, smile and sad face, which I used to classify 200 unique images. Then, I was able to dump the data into an xml file, load it, and classify each one of them as smiling or not smiling using a string. Based on the true and false values from when I first pressed the buttons, my code was able to match that to whether the images were smiling or not. True means that they are, and false means that they are not.
 
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/RxNrnyGkhDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
