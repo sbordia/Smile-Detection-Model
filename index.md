@@ -23,6 +23,10 @@ My final milestone was getting my web app working. When I press the detect butto
 I used Flask to set up my web server, and I used HTML, CSS, and Bootstrap on the frontend.
 
 
+![image](https://user-images.githubusercontent.com/60077919/126812219-c26c631a-cfb7-40e9-ab94-78343ba77e31.png)
+
+
+
 # Second Milestone
 The first part of my second milestone involved getting my model to actually work and detect faces when I upload them. It was decently accurate. My model, once trained and tested, had an accuracy of 82%. After this was done, I used this model to be able to detect when I am smiling or not using a live webcam. This part worked much better as I had provided coefficients for my face that made it easier for the model algorithm to correctly identify whether I was smiling or not.
 
