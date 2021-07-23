@@ -7,7 +7,7 @@ I worked on a smile detection model using machine learning that can accurately p
 
 # Demo Night
 
-Challenges: One of the main challenges I had was that some of the tutorials I was using had outdated code from 2015. For example, the cross_selection function that calls on KFold that splits the train and test data, was replaced by sklearn to model_selection. The two are the exact same, except for the name. Another major challenge I had was matching the image pixel size that was given by the olivetti faces dataset. The images in this dataset were 64 by 64, but images I got from google or took of myself were not always 64 by 64. As a result, I used the code below to extract a 64 by 64 image of the image I had already inputted, by matching coefficients for each image and multiplying it by the height and width to get that exact pixel size.
+Challenges: One of the main challenges I had was that some of the tutorials I was using had outdated code from 2015. For example, the cross_selection function that calls on KFold that splits the train and test data, was replaced by sklearn to model_selection. The two have the exact same purpose, except for the name. Another major challenge I had was matching the image pixel size that was given by the olivetti faces dataset. The images in this dataset were 64 by 64, but images I got from google or took of myself were not always 64 by 64. As a result, I used the code below to extract a 64 by 64 image of the image I had already inputted, by matching coefficients for each image and multiplying it by the height and width to get that exact pixel size.
 
 
 ![image](https://user-images.githubusercontent.com/60077919/126688915-27157415-da6c-497e-9f93-66d65fa377c5.png)
@@ -29,6 +29,9 @@ I used Flask to set up my web server, and I used HTML, CSS, and Bootstrap on the
 
 # Second Milestone
 The first part of my second milestone involved getting my model to actually work and detect faces when I upload them. It was decently accurate. My model, once trained and tested, had an accuracy of 82%. After this was done, I used this model to be able to detect when I am smiling or not using a live webcam. This part worked much better as I had provided coefficients for my face that made it easier for the model algorithm to correctly identify whether I was smiling or not.
+
+
+This is my code for training my model and getting its accuracy. I used Kfold to split the train and test data. Because of this, my model is able to use one as a reference point and see if it is able to accurately predict the images in the olivetti faces dataset. Once it predicts an image, it checks to see if it is right based on how I already classified the images before. If it right, it's accuracy improves. If it's wrong, it tries to improve and figure out what went wrong.
 
 
 ![image](https://user-images.githubusercontent.com/60077919/126688752-bf4b0f21-8fc4-4452-9ecf-4b3468865e87.png)
