@@ -7,9 +7,6 @@ I worked on a smile detection model using machine learning that can accurately p
 
 # Demo Night
 
-<img src = "C:\Stuff\Sanay\Computer\Raspberry Pi\SmileDetection\images\smile.png">
-<img src = "C:\Stuff\Sanay\Computer\Raspberry Pi\SmileDetection\images\nosmile.png">
-
 
 Challenges: One of the main challenges I had was that some of the tutorials I was using had outdated code from 2015. For example, the cross_selection function that calls on KFold that splits the train and test data, was replaced by sklearn to model_selection. The two have the exact same purpose, except for the name. Another major challenge I had was matching the image pixel size that was given by the olivetti faces dataset. The images in this dataset were 64 by 64, but images I got from google or took of myself were not always 64 by 64. As a result, I used the code below to extract a 64 by 64 image of the image I had already inputted, by matching coefficients for each image and multiplying it by the height and width to get that exact pixel size.
 
