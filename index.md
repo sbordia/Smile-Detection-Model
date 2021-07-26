@@ -18,6 +18,8 @@ Reflection: Overall, I realized I like the software/problem solving side of comp
 
 
 # Final Milestone
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ZXLKHXvmQZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 My final milestone was getting my web app working. When I press the detect button, my web cam is able to start up a video and use OpenCV to process my face and detect if I am smiling or not. The OpenCV renders accurate results, and my model is able to detect when I am changing my face from smiling to no smile.
 
 
